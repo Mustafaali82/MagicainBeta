@@ -1,0 +1,642 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+/* Header Styling */
+
+header {
+    padding: 40px;
+    width: 70%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav div a {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    display: flex;
+
+    cursor: pointer;
+}
+
+header nav div a img {
+    margin-right: 12px;
+}
+
+header nav div a span {
+    opacity: 0.6;
+    margin-left: 5px;
+}
+
+header nav div ul li {
+    list-style-type: none;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.7;
+    display: inline-block;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+/*Hero Section Styling */
+
+.hero_section {
+    background: linear-gradient(180deg, #9747ff 0%, #684dff 100%);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading_box {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.heading_box h1 {
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 700;
+}
+
+.heading_box p {
+    font-size: 20px;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+.heading_box button {
+    padding: 12px 24px;
+    border-radius: 50px;
+    outline: none;
+    background: linear-gradient(180deg, #1ce28f 0%, #15ab6c 100%);
+    box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.16), 0 0 0 2px rgba(0, 0, 0, 0.12);
+    filter: drop-shadow(0px 2px 14px rgba(0, 0, 0, 0.15));
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border: 1px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    transition: 0.5s;
+}
+
+.heading_box button img {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.heading_box button:hover {
+    transform: scale(1.1);
+}
+
+.heading_box .img {
+    width: 100%;
+    max-width: 720px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24), 0px 24px 40px rgba(0, 0, 0, 0.24);
+}
+
+.pills {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.like,
+.install {
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.421);
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border-radius: 55px;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.like img {
+    width: 100%;
+    max-width: 20px;
+}
+
+.install img {
+    width: 100%;
+    max-width: 20px;
+}
+
+.like span {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.install span {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.copyright {
+    margin-top: 50px;
+    font-size: 20px;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+
+
+
+/* Features section Styling */
+
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 70px 0;
+    color: white;
+    background-color: #333333;
+}
+
+.feature svg {
+    fill: white;
+    opacity: 0.48;
+    position: relative;
+    top: 5px;
+    left: -3px;
+}
+
+.first-svg {
+    fill: black !important;
+    opacity: 1 !important;
+}
+
+.feature h1 {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.feature h1 img {
+    vertical-align: middle;
+    margin-right: 13px;
+}
+
+.feature p {
+    font-size: 20px;
+    width: 600px;
+    text-align: center;
+    line-height: 31px;
+    padding-top: 15px;
+    opacity: 0.6;
+}
+
+.feature ul {
+    display: flex;
+    color: white;
+    list-style-type: none;
+    gap: 34px;
+    padding-top: 20px;
+    padding-bottom: 22px;
+}
+
+.feature ul li {
+    padding: 14px 28px;
+}
+
+.first {
+    background-color: white;
+    border-radius: 100px;
+    opacity: 1 !important;
+    color: black !important;
+}
+
+.feature ul li {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    opacity: 0.48;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.feature ul li a img {
+    vertical-align: middle;
+}
+
+.feature #image {
+    width: 100%;
+    max-width: 720px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24), 0px 24px 40px rgb(0 0 0 / 45%);
+}
+
+.feature1 {
+    background-color: #EDEEF0;
+    color: black;
+}
+
+.feature1 ul li {
+    color: black;
+}
+
+.feature1 svg {
+    fill: black;
+}
+
+#image1 {
+    width: 100%;
+    max-width: 720px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24), 0px 24px 40px rgb(0 0 0 / 45%);
+}
+
+.feature1 .first {
+    background-color: black !important;
+    color: white !important;
+}
+
+.feature1 .first-svg {
+    fill: rgb(255, 255, 255) !important;
+    opacity: 1 !important;
+}
+
+/* Diagram Section Styling */
+
+.diagram {
+    background-color: #333333;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "DM Sans", sans-serif;
+}
+
+.diagram h1 {
+    font-size: 36px;
+}
+
+.diagram h1 img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.diagram p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    opacity: 0.6;
+    color: white;
+}
+
+.apps {
+    display: flex;
+    width: 720px;
+    gap: 40px;
+}
+
+.automater {
+    width: 100%;
+    background-color: #edeef0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 40px;
+    padding: 80px 20px;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 12%), 0px 24px 40px rgb(0 0 0 / 12%);
+}
+
+.img1 {
+    position: relative;
+    height: 192px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.img1 img {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    z-index: 2;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 24%), 0px 24px 40px rgb(0 0 0 / 24%);
+    border-radius: 16px;
+}
+
+.automater img {
+    margin-bottom: 15px;
+}
+
+.automater p {
+    line-height: 30px;
+    color: #333333;
+    opacity: 1;
+    margin-bottom: 0;
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.automater a {
+    text-decoration: none;
+    color: black;
+    margin-top: 7px;
+}
+
+.potymater {
+    background-color: black;
+    color: white;
+}
+
+.potymater a {
+    color: white;
+}
+
+.potymater p {
+    color: #e6e6e6;
+    opacity: 1;
+
+}
+
+.company {
+    text-align: center;
+    padding: 30px;
+}
+
+.company_logo {
+    width: 600px;
+}
+
+.company_logo img {
+    padding: 20px;
+}
+
+/* Pricing Section Styling */
+
+.pricing {
+    background-color: #7B61FF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 20px;
+}
+
+.pricing h1 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.pricing h1 img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.pricing-box {
+    background-color: white;
+    color: black;
+    padding: 40px;
+    border-radius: 40px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12), 0px 24px 40px rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.pricing-box h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #7b61ff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pricing-box h2 {
+    margin-top: 24px;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 44px;
+}
+
+.pricing-box p {
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.pricing-box span img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.pricing-box span {
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.pricing-box button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    border-radius: 50px;
+    background-color: #7B61FF;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px;
+    cursor: pointer;
+}
+
+/* Contact Section Styling */
+
+.contact {
+    background-color: #190B2E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 70px 0 0 20px;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.contact p {
+    margin-top: 7px;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 20px;
+}
+
+.contact button {
+    padding: 12px 24px;
+    border-radius: 50px;
+    outline: none;
+    background: #7B61FF;
+    box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.16), 0 0 0 2px rgba(0, 0, 0, 0.12);
+    filter: drop-shadow(0px 2px 14px rgba(0, 0, 0, 0.15));
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border: 1px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 24px;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+
+.contact button:hover {
+    transform: scale(1.1);
+}
+
+.contact button img{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.contact span img{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.contact span{
+    margin-top: 30px;
+    color: white;
+    opacity: 0.4;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        width: 100%;
+    }
+
+    header nav {
+        flex-direction: column;
+    }
+
+    header nav div ul li {
+        display: block;
+    }
+
+    header nav div ul {
+        display: flex;
+    }
+
+    .heading_box {
+        width: 100%;
+        text-align: center;
+        padding: 24px;
+    }
+
+    .heading_box .img {
+        border-radius: 19px;
+    }
+
+    .pills {
+        flex-direction: column;
+    }
+
+    .feature {
+        padding: 20px;
+    }
+
+    .feature ul {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        text-align: center;
+    }
+
+    .feature p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .feature h1 {
+        font-size: 34px;
+    }
+
+    .feature h1 img {
+        display: block;
+        margin: auto;
+        padding: 15px;
+    }
+
+    .apps {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .diagram p {
+        text-align: center;
+    }
+
+    .diagram h1 img {
+        display: block;
+        margin: auto;
+        padding: 14px;
+    }
+
+    .company_logo img {
+        padding: 11px;
+    }
+
+    .company_logo {
+        width: 100%;
+    }
+
+    .company {
+        padding: 0;
+    }
+
+    .contact p {
+        font-size: 18px;
+    }
+
+    .contact{
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contact h1{
+        font-size: 28px;
+    }
+}
